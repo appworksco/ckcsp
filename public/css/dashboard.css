@@ -1,0 +1,61 @@
+.btn {
+    padding: .1rem .75rem !important;
+}
+
+.sidebar ul {
+    background-color: #f8f8f8;
+}
+
+.sidebar ul li {
+    padding: 5px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.sidebar  li a {
+    color: #000;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li a:hover {
+    background-color: #fff;
+    margin-right: -15px;
+}
+
+@media (max-width: 768px) {
+
+    .sidebar ul li:hover,
+    .sidebar ul li a:hover {
+        margin: 0;
+    }
+}
+
+.sidebar ul li.sidebar-active {
+    background-color: #fff;
+    margin-right: -15px;
+}
+
+.sidebar ul li.sidebar-active a {
+    color: #ffc107;
+}
+
+footer {
+    position: relative;
+}
+
+.footer-label {
+    position: fixed;
+    bottom: 10px;
+    /* Adjust as needed */
+    right: 10px;
+    /* Adjust as needed */
+    z-index: 1000;
+    /* Ensure it stays on top */
+}
+
+.footer-label img {
+    display: block;
+    max-width: 200px;
+    /* Adjust based on your image size */
+    height: auto;
+    /* Maintain aspect ratio */
+}

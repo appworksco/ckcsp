@@ -74,7 +74,7 @@ if ($userId == 0) {
             ?>
         </div>
         <div class="col-lg-9 bg-white" style="height: 100vh;">
-            <p>asdas</p>
+            <p>asdas asdasdasdhaasdkj had asda</p>
         </div>
     </div>
 </div>
